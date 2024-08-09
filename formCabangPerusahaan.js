@@ -133,6 +133,7 @@ function initializeMap() {
         provider: new GeoSearch.OpenStreetMapProvider(),
         style: "bar",
         searchLabel: "Cari Lokasi",
+        autoClose: true,
     });
     map.addControl(searchControl);
 
